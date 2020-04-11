@@ -1,6 +1,11 @@
 git --version
 devuelve la version que tenemos de git
 
+git config --global user.email "you@example.com"
+configurar el correo
+git config --global user.name "Your Name"
+configurar el nombre del usuario
+
 git init
 inicializa el repositorio local
 
@@ -14,3 +19,14 @@ agrega mis archivos al area de espera
 git commit -m "Mensaje"
 agrega mis archivos al repositorio local
 
+git log
+me muestra todos los cambios que se hicieron en el repositorio
+
+git remote add origin URL
+Enlaza el repositorio local con el repositorio en la nube (GitHub)
+
+git remote -v 
+Me muestra con que repositorio remoto esta elnazado mi repositorio local
+
+git push origin master
+sube los cambios al repositorio remoto (GitHub)
